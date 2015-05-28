@@ -7,11 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SinglyLinkedList.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
+        
+        SinglyLinkedList *singlyLinkedList = [SinglyLinkedList new];
+        [singlyLinkedList demo];
+        
     }
     return 0;
 }
+
+
