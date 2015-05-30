@@ -27,8 +27,8 @@
 
 @interface Stack : LinkedList
 
-- (void) push:(int)value;
-- (int) pop;
-- (int) peek;
+- (void) push:(id)value;
+- (id) pop;
+- (id) peek;
 
 @end

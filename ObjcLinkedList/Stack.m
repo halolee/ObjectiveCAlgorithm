@@ -10,19 +10,19 @@
 
 @implementation Stack
 
-- (void) push:(int)value {
+- (void) push:(id)value {
     Node *node = [Node new];
-    node.value = value;
+    node.value = value ;
     [self pushToHead:node];
 }
 
-- (int) pop {
+- (id) pop {
    Node *node = [self popFromHead];
     
-    return node==nil?-1:node.value;
+    return node.value;
 }
 
-- (int) peek{
+- (id) peek{
     Node *node = [self popFromHead];
     [self pushToHead:node];
     return node.value;
@@ -31,9 +31,9 @@
 - (void) demo{
     Stack *stack = [Stack new];
     
-    [stack push:5];
-    [stack push:3];
-    [stack push:1];
+    [stack push:@5];
+    [stack push:@3];
+    [stack push:@1];
     
     [stack showList];
     
@@ -41,8 +41,10 @@
     
     [stack showList];
     
-    for (int i = 0; i<10; i++)
-        NSLog(@"Pop value %d",[stack pop]);
+    for (int i = 0; i<10; i++){
+        id value = [stack pop];
+        NSLog(@"Pop value %d",value == nil? INT_MIN:[value intValue]);
+    }
     
 }
 

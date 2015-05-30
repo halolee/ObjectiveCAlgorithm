@@ -13,7 +13,7 @@
     NSLog(@"\n\nCurrent List is:\n");
     Node *node = self.head;
     while (node != nil) {
-        printf("%d ->",node.value);   // Use printf to put all the element on the same line
+        printf("%d ->",[node.value intValue]);   // Use printf to put all the element on the same line
         node = node.next;
     }
 }
@@ -83,10 +83,10 @@
 
     Node *node = self.head;
     while (node.next != self.tail) {
-        printf("%d ->",node.value);
+        printf("%d ->",[node.value intValue]);
         node = node.next;
     }
-    printf("%d\n\n\n",node.value);
+    printf("%d\n\n\n",[node.value intValue]);
     self.tail = node;
     
     return poppedNode;
@@ -105,22 +105,22 @@
 
 - (void)demo {
     Node *firstNode = [Node new];
-    firstNode.value = 1;
+    firstNode.value = @1;
     
     Node *secondNode = [Node new];
-    secondNode.value = 3;
+    secondNode.value = @3;
     
     Node *thirdNode = [Node new];
-    thirdNode.value = 5;
+    thirdNode.value = @5;
     
     Node *forthNode = [Node new];
-    forthNode.value = 7;
+    forthNode.value = @7;
     
     Node *newHead = [Node new];
     newHead.value =  0;
     
     Node *newNewHead = [Node new];
-    newNewHead.value = -1;
+    newNewHead.value = @-1;
     
     
     [self pushToHead:newHead];
