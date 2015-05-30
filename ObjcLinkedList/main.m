@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "SinglyLinkedList.h"
 #import "LinkedList.h"
+#import "Stack.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -16,9 +17,11 @@ int main(int argc, const char * argv[]) {
 //        SinglyLinkedList *singlyLinkedList = [SinglyLinkedList new];
 //        [singlyLinkedList demo];
         
-        LinkedList *linkedList = [LinkedList new];
-        [linkedList demo];
+//        LinkedList *linkedList = [LinkedList new];
+//        [linkedList demo];
         
+        Stack *stack = [Stack new];
+        [stack demo];
     }
     return 0;
 }

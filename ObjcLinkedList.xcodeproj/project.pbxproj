@@ -50,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AAE3C8A1B19F78800623A23 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				3AAE3C871B19F2F600623A23 /* Stack.h */,
+				3AAE3C881B19F2F600623A23 /* Stack.m */,
+			);
+			name = Stack;
+			sourceTree = "<group>";
+		};
 		3ABB7BE91B16C97E0026C8E0 = {
 			isa = PBXGroup;
 			children = (
@@ -70,8 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				3ABB7BF51B16C97E0026C8E0 /* main.m */,
-				3AAE3C871B19F2F600623A23 /* Stack.h */,
-				3AAE3C881B19F2F600623A23 /* Stack.m */,
+				3AAE3C8A1B19F78800623A23 /* Stack */,
 				3ABB7C081B16E6170026C8E0 /* LinkedList */,
 			);
 			path = ObjcLinkedList;

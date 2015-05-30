@@ -6,8 +6,29 @@
 //  Copyright (c) 2015 halolee. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 
-@interface Stack : NSObject
+/*
+ Linked List Stack
+ 
+ Pro
+    * No hard size (depth) limit
+    * Easy to implement
+        No bounds checking
+        Empty list = Empty stack
+ 
+ Con
+    * Memory allocation on push
+    * Per-node memory overhead
+    * Potential performance issues
+ 
+ */
+
+#import "LinkedList.h"
+
+@interface Stack : LinkedList
+
+- (void) push:(int)value;
+- (int) pop;
+- (int) peek;
 
 @end
