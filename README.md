@@ -8,7 +8,7 @@ Currently done
 * Linked List (Singly & Doubly)
 * Stack
 
-NextUp
+Comming up
 
 * Queue
 
