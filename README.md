@@ -6,11 +6,12 @@ Back to the source!
 Currently done
 
 * Linked List (Singly & Doubly)
+* Stack
 
 NextUp
 
 * Queue
-* Stack
+
 
 
 Feel free to leave comments and fork. 
