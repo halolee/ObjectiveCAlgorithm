@@ -11,6 +11,7 @@
 #import "LinkedList.h"
 #import "Stack.h"
 #import "Queue.h"
+#import "QueueArray.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -24,8 +25,11 @@ int main(int argc, const char * argv[]) {
 //        Stack *stack = [Stack new];
 //        [stack demo];
         
-        Queue *queue = [Queue new];
-        [queue demo];
+//        Queue *queue = [Queue new];
+//        [queue demo];
+        
+        QueueArray *queueArray = [QueueArray new];
+        [queueArray demo];
     }
     return 0;
 }

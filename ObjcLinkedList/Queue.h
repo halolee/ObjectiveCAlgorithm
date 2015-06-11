@@ -11,6 +11,7 @@
     Enqueu with AddLast
     LinkedList Head is Queue Head
     Dequeue with Remove First
+    AddLast/RemoveFirst allow list enumeration to "just work"
  
  */
 
