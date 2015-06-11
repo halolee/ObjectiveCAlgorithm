@@ -23,9 +23,7 @@
 }
 
 - (id) peek{
-    Node *node = [self popFromHead];
-    [self pushToHead:node];
-    return node.value;
+    return self.head.value;
 }
 
 - (void) demo{
