@@ -12,6 +12,7 @@
 #import "Stack.h"
 #import "Queue.h"
 #import "QueueArray.h"
+#import "QueuePriority.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -28,8 +29,11 @@ int main(int argc, const char * argv[]) {
 //        Queue *queue = [Queue new];
 //        [queue demo];
         
-        QueueArray *queueArray = [QueueArray new];
-        [queueArray demo];
+//        QueueArray *queueArray = [QueueArray new];
+//        [queueArray demo];
+        
+        QueuePriority *queuePriority = [QueuePriority new];
+        [queuePriority demo];
     }
     return 0;
 }

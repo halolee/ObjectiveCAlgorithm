@@ -23,6 +23,8 @@
 - (void) pushToHead:(Node *) newHeadNode;
 - (void) pushToTail:(Node *) newTailNode;
 
+- (void) addNodeBeforeNode:(Node *)current forItem:(Node *)item;
+
 - (Node *) popFromHead;
 - (Node *) popFromTail;
 

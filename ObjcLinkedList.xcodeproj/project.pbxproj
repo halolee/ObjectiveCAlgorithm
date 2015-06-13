@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3A696E971B29A55E00BB4B02 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A696E961B29A55E00BB4B02 /* Queue.m */; };
 		3A696E9A1B29ABD000BB4B02 /* QueueArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A696E991B29ABD000BB4B02 /* QueueArray.m */; };
+		3A696E9E1B2C447C00BB4B02 /* QueuePriority.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A696E9D1B2C447C00BB4B02 /* QueuePriority.m */; };
 		3AAE3C891B19F2F600623A23 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE3C881B19F2F600623A23 /* Stack.m */; };
 		3ABB7BF61B16C97E0026C8E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB7BF51B16C97E0026C8E0 /* main.m */; };
 		3ABB7C011B16D5D50026C8E0 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB7C001B16D5D50026C8E0 /* Node.m */; };
@@ -33,6 +34,8 @@
 		3A696E961B29A55E00BB4B02 /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
 		3A696E981B29ABD000BB4B02 /* QueueArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueueArray.h; sourceTree = "<group>"; };
 		3A696E991B29ABD000BB4B02 /* QueueArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueueArray.m; sourceTree = "<group>"; };
+		3A696E9C1B2C447C00BB4B02 /* QueuePriority.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueuePriority.h; sourceTree = "<group>"; };
+		3A696E9D1B2C447C00BB4B02 /* QueuePriority.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueuePriority.m; sourceTree = "<group>"; };
 		3AAE3C871B19F2F600623A23 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		3AAE3C881B19F2F600623A23 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 		3ABB7BF21B16C97E0026C8E0 /* ObjcLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjcLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +66,8 @@
 				3A696E991B29ABD000BB4B02 /* QueueArray.m */,
 				3A696E951B29A55E00BB4B02 /* Queue.h */,
 				3A696E961B29A55E00BB4B02 /* Queue.m */,
+				3A696E9C1B2C447C00BB4B02 /* QueuePriority.h */,
+				3A696E9D1B2C447C00BB4B02 /* QueuePriority.m */,
 			);
 			name = Queue;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A696E9A1B29ABD000BB4B02 /* QueueArray.m in Sources */,
+				3A696E9E1B2C447C00BB4B02 /* QueuePriority.m in Sources */,
 				3ABB7BF61B16C97E0026C8E0 /* main.m in Sources */,
 				3ABB7C041B16D6330026C8E0 /* SinglyLinkedList.m in Sources */,
 				3ABB7C071B16E27E0026C8E0 /* LinkedList.m in Sources */,

@@ -46,6 +46,30 @@
     self.tail = newTailNode;      // reset the pointer in linked list to the new tail
 }
 
+- (void) addNodeBeforeNode:(Node *)current forItem:(Node *)item {
+    
+    // If the current node is head node, just push to head
+    if (self.head.value == current.value) {
+        [self pushToHead:item];
+        return;
+    }
+    
+    // At least 2 node in the list, find the node position first
+    Node *tempNode = self.head;
+    Node *beforeNote = tempNode;
+    
+    // Find current Node
+    while (tempNode.value != current.value) {
+        beforeNote = tempNode;
+        tempNode = tempNode.next;
+    }
+
+    beforeNote.next = item;
+    item.prev = beforeNote;
+    item.next = current;
+    current.prev = item;
+}
+
 
 - (Node *) popFromHead
 {
